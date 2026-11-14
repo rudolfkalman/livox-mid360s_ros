@@ -1,0 +1,46 @@
+# ROS / colcon and CMake generated output
+build/
+install/
+log/
+devel/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime logs and recorded sensor data
+*.log
+rosbag2_*/
+*.bag
+*.db3
+*.db3-shm
+*.db3-wal
+*.mcap
+*.lvx
+*.lvx2
+
+# Local editor, agent, and operating-system files
+.vscode/
+.idea/
+/.agents/
+/.codex/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local environment settings (keep example files trackable)
+.env
+.env.*
+!.env.example
+!.env.sample
