@@ -1,0 +1,102 @@
+[0.016s] Invoking command in '/home/ubuntu/project/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/project/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DDISTRO_ROS=jazzy -DCMAKE_INSTALL_PREFIX=/home/ubuntu/project/install/livox_ros_driver2
+[0.091s] -- The C compiler identification is GNU 13.3.0
+[0.158s] -- The CXX compiler identification is GNU 13.3.0
+[0.182s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.469s] -- livox_ros_driver2 version: 1.2.7
+[0.479s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.656s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.068s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.188s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.195s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.309s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.326s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.673s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.673s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.673s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.673s]   cmake_policy command to set the policy and suppress this warning.
+[1.673s] 
+[1.674s]   CMake variable FLANN_ROOT is set to:
+[1.674s] 
+[1.674s]     /usr
+[1.674s] 
+[1.674s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.674s]   .cmake module might still use it.
+[1.674s] Call Stack (most recent call first):
+[1.674s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.675s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.675s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.675s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.675s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.675s]   /opt/ros/jazzy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.675s]   CMakeLists.txt:225 (ament_auto_find_build_dependencies)
+[1.675s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.675s] [0m
+[1.675s] -- Found flann version 1.9.2
+[1.964s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.965s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.183s] -- Checking for module 'libusb-1.0'
+[3.203s] --   Found libusb-1.0, version 1.0.27
+[3.248s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.249s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.316s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.318s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.329s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.342s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.694s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.700s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.045s] -- Found Qhull version 8.0.2
+[4.400s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.744s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.744s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.745s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.746s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.747s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.747s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.748s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.748s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.749s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.749s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.750s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.751s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.752s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.752s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.753s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.754s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.755s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.755s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.756s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.757s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.758s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.758s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.758s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.759s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.760s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.829s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[4.830s] -- Checking for module 'apr-1'
+[4.850s] --   Package 'apr-1', required by 'virtual:world', not found
+[5.311s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.303s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.430s] -- Found PythonExtra: /usr/bin/python3  
+[6.814s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.892s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.896s] [31mCMake Error at CMakeLists.txt:249 (find_library):
+[6.896s]   Could not find LIVOX_LIDAR_SDK_LIBRARY using the following names:
+[6.896s]   liblivox_lidar_sdk_shared.so, /usr/local/lib
+[6.896s] 
+[6.896s] [0m
+[6.897s] -- Configuring incomplete, errors occurred!
+[6.916s] Invoked command in '/home/ubuntu/project/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/project/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DDISTRO_ROS=jazzy -DCMAKE_INSTALL_PREFIX=/home/ubuntu/project/install/livox_ros_driver2

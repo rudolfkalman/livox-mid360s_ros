@@ -1,0 +1,402 @@
+[0.017s] Invoking command in '/home/ubuntu/project/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/project/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DDISTRO_ROS=jazzy -DCMAKE_INSTALL_PREFIX=/home/ubuntu/project/install/livox_ros_driver2
+[0.085s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.296s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.464s] -- livox_ros_driver2 version: 1.2.7
+[0.474s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.693s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.102s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.221s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.228s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.339s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.356s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.695s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.695s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.695s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.695s]   cmake_policy command to set the policy and suppress this warning.
+[1.696s] 
+[1.696s]   CMake variable FLANN_ROOT is set to:
+[1.696s] 
+[1.696s]     /usr
+[1.696s] 
+[1.696s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.696s]   .cmake module might still use it.
+[1.696s] Call Stack (most recent call first):
+[1.696s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.696s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.696s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.696s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.696s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.697s]   /opt/ros/jazzy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.697s]   CMakeLists.txt:225 (ament_auto_find_build_dependencies)
+[1.697s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.697s] [0m
+[1.697s] -- Found flann version 1.9.2
+[1.987s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.987s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.191s] -- Checking for module 'libusb-1.0'
+[3.207s] --   Found libusb-1.0, version 1.0.27
+[3.250s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.251s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.323s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.325s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.336s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.349s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.692s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.698s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.040s] -- Found Qhull version 8.0.2
+[4.388s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.726s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.727s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.728s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.728s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.729s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.730s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.730s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.730s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.731s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.732s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.733s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.734s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.734s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.735s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.736s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.737s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.738s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.739s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.739s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.740s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.741s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.741s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.741s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.742s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.743s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.810s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[4.811s] -- Checking for module 'apr-1'
+[4.831s] --   Package 'apr-1', required by 'virtual:world', not found
+[5.283s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.236s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.360s] -- Found PythonExtra: /usr/bin/python3  
+[6.736s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.811s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.830s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.900s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.938s] -- Configured cppcheck include dirs: /home/ubuntu/project/src/livox_ros_driver2/3rdparty;/home/ubuntu/project/src/livox_ros_driver2/src
+[6.938s] -- Configured cppcheck exclude dirs and/or files: 
+[6.972s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.973s] -- Configured cpplint exclude dirs and/or files: 
+[6.978s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.978s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.987s] -- Added test 'lint_cmake' to check CMake code style
+[6.993s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.027s] -- Added test 'uncrustify' to check C / C++ code style
+[7.027s] -- Configured uncrustify additional arguments: 
+[7.032s] -- Added test 'xmllint' to check XML markup files
+[7.036s] -- Configuring done (7.0s)
+[7.137s] -- Generating done (0.1s)
+[7.151s] -- Build files have been written to: /home/ubuntu/project/build/livox_ros_driver2
+[7.171s] Invoked command in '/home/ubuntu/project/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/project/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DDISTRO_ROS=jazzy -DCMAKE_INSTALL_PREFIX=/home/ubuntu/project/install/livox_ros_driver2
+[7.173s] Invoking command in '/home/ubuntu/project/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/project/build/livox_ros_driver2 -- -j16 -l16
+[7.233s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.233s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[7.233s] [  4%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[7.243s] [  4%] Built target ament_cmake_python_copy_livox_ros_driver2
+[7.440s] running egg_info
+[7.441s] creating livox_ros_driver2.egg-info
+[7.458s] writing livox_ros_driver2.egg-info/PKG-INFO
+[7.459s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[7.459s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[7.459s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[7.508s] [  4%] Built target livox_interfaces2__rosidl_generator_type_description
+[7.511s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[7.511s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[7.521s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.523s] [  6%] Built target livox_interfaces2__rs
+[7.533s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.542s] [  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[7.857s] [  7%] Built target livox_interfaces2__cpp
+[7.877s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__description.c.o[0m
+[7.878s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[7.878s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[7.878s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__description.c.o[0m
+[7.878s] [ 15%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[7.878s] [ 17%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[7.926s] [ 19%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[7.969s] [ 19%] Built target livox_interfaces2__rosidl_generator_c
+[7.982s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.982s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.982s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.982s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.982s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.982s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.344s] [ 30%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[8.344s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[8.345s] [ 34%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[8.346s] [ 34%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[8.365s] [ 36%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[8.366s] [ 39%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[8.366s] [ 39%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[8.368s] [ 41%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[8.400s] [ 42%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[8.401s] [ 44%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[8.408s] [ 46%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[8.412s] [ 47%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[8.413s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[8.431s] [ 50%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[8.479s] [ 50%] Built target livox_interfaces2__rosidl_typesupport_c
+[8.481s] [ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[8.680s] [ 52%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[8.731s] [ 52%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[8.766s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[8.766s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[8.766s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[8.766s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[8.767s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[8.767s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[8.767s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[8.767s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[8.767s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[8.767s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[8.780s] [ 69%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[8.896s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[8.911s] [ 71%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[8.917s] [ 74%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[8.917s] [ 74%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[8.927s] [ 76%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[9.004s] [ 76%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[9.020s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[9.033s] [ 79%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.124s] [ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[9.172s] [ 80%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[9.215s] [ 80%] Built target livox_interfaces2
+[9.262s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.894s] [01m[K/home/ubuntu/project/src/livox_ros_driver2/src/comm/pub_handler.cpp:[m[K In member function ‘[01m[Kvoid livox_ros::LidarPubHandler::[01;32m[KProcessDoubleEchoPoint[m[K(livox_ros::RawPacket&)[m[K’:
+[9.894s] [01m[K/home/ubuntu/project/src/livox_ros_driver2/src/comm/pub_handler.cpp:466:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[9.894s]   466 |   uint32_t [01;35m[Kindex[m[K = 0;
+[9.894s]       |            [01;35m[K^~~~~[m[K
+[10.092s] [ 82%] Built target livox_interfaces2__py
+[10.120s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[10.124s] [ 85%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[10.268s] [ 87%] [32m[1mLinking C shared library liblivox_interfaces2__rosidl_generator_py.so[0m
+[10.321s] [ 87%] Built target livox_interfaces2__rosidl_generator_py
+[10.348s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[10.348s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.348s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.454s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so[0m
+[10.454s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so[0m
+[10.462s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.489s] [ 96%] Built target livox_ros_driver2_s__rosidl_typesupport_c
+[10.489s] [ 96%] Built target livox_ros_driver2_s__rosidl_typesupport_introspection_c
+[10.500s] [ 96%] Built target livox_ros_driver2_s__rosidl_typesupport_fastrtps_c
+[10.632s] [ 98%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[10.761s] [ 98%] Built target livox_ros_driver2_node
+[15.878s] [100%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[16.380s] [100%] Built target livox_ros_driver2
+[16.393s] Invoked command in '/home/ubuntu/project/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/project/build/livox_ros_driver2 -- -j16 -l16
+[16.405s] Invoking command in '/home/ubuntu/project/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/project/build/livox_ros_driver2
+[16.413s] -- Install configuration: ""
+[16.413s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[16.414s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.json
+[16.414s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.json
+[16.414s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[16.414s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[16.414s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[16.414s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__description.c
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[16.415s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__description.c
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[16.416s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[16.416s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[16.416s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[16.416s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[16.416s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[16.417s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[16.417s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.417s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[16.417s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[16.417s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[16.417s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[16.417s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[16.418s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[16.418s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[16.418s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[16.418s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[16.418s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.418s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[16.419s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[16.419s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[16.419s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[16.419s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[16.419s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[16.419s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[16.419s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[16.419s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[16.419s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.420s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[16.420s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[16.420s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[16.420s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[16.421s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.421s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[16.421s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[16.421s] -- Up-to-date: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[16.421s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[16.422s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[16.422s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/PKG-INFO
+[16.422s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/dependency_links.txt
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/top_level.txt
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/SOURCES.txt
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/__init__.py
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+[16.423s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+[16.424s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg
+[16.424s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point_s.c
+[16.424s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/__init__.py
+[16.424s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point.py
+[16.424s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[16.424s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg.py
+[16.458s] Listing '/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2'...
+[16.458s] Compiling '/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/__init__.py'...
+[16.458s] Listing '/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg'...
+[16.458s] Compiling '/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/__init__.py'...
+[16.458s] Compiling '/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[16.458s] Compiling '/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point.py'...
+[16.462s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+[16.463s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.463s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+[16.463s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so" to ""
+[16.464s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+[16.464s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so" to ""
+[16.464s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[16.465s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[16.465s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2
+[16.465s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust
+[16.465s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/src
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[16.466s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[16.467s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[16.467s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[16.467s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[16.467s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[16.470s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/project/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[16.470s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config
+[16.470s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[16.470s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[16.470s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/AVIA2_config.json
+[16.470s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_AVIA2_launch.py
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[16.471s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_AVIA2_launch.py
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[16.472s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[16.473s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[16.473s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[16.473s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[16.473s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[16.473s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[16.473s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.474s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[16.475s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[16.475s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[16.475s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.475s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.475s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[16.475s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.476s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.477s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[16.477s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[16.477s] -- Installing: /home/ubuntu/project/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[16.479s] Invoked command in '/home/ubuntu/project/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/project/build/livox_ros_driver2
